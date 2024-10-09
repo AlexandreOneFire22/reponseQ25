@@ -1,6 +1,7 @@
 <?php
 
 $Vue->setMenu(new \App\Vue\Vue_Menu_MaTable());
+
 switch ($action) {
     case "defaut":
         $data = \App\Modele\Modele_MaTable::MaTable_Select();
